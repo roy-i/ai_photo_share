@@ -1,1 +1,25 @@
+# Pythonの仮想環境
 .venv/
+
+# 秘密情報
+.env
+.env.*
+!.env.example
+
+# Pythonが自動生成するキャッシュ
+__pycache__/
+*.py[cod]
+
+# Flaskのローカルデータ
+/instance/
+
+# SQLiteのDBと関連ファイル
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# macOSが自動生成するファイル
+.DS_Store
